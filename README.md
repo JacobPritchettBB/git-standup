@@ -7,7 +7,7 @@
 You can install it either using CURL
 
 ```bash
-$ curl -L https://raw.githubusercontent.com/kamranahmedse/git-standup/master/installer.sh | sudo sh
+$ curl -L https://raw.githubusercontent.com/JacobPritchettBB/git-standup/master/installer.sh | sudo sh
 ```
 
 Or install using `npm`
@@ -19,7 +19,7 @@ $ npm install -g git-standup
 Or by cloning and manually installing it
 
 ```bash
-$ git clone https://github.com/kamranahmedse/git-standup.git
+$ git clone https://github.com/JacobPritchettBB/git-standup.git
 $ cd git-standup
 $ sudo make install
 ```

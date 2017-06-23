@@ -141,6 +141,7 @@ GIT_DATE_FORMAT=${option_D:-relative}
 GIT_LOG_COMMAND="git --no-pager log \
     --all
     --no-merges
+    --reverse
     --since=\"$SINCE\"
     --author=\"$AUTHOR\"
     --abbrev-commit

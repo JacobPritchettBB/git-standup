@@ -136,7 +136,7 @@ else
   fi
 fi
 
-GIT_DATE_FORMAT=${option_D:-relative}
+GIT_DATE_FORMAT=${option_D:-format:'%a, %b %d at %I:%M:%S %p'}
 
 GIT_LOG_COMMAND="git --no-pager log \
     --all
